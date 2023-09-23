@@ -1,0 +1,13 @@
+.rounded {
+  border-radius: 50%;
+}
+
+.nombre,
+.profesion {
+  color: black;
+}
+
+.sobreMi {
+  color: black;
+  text-align: justify;
+}
