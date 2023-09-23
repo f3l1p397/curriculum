@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "bulma/css/bulma.css";
 const inter = Inter({ subsets: ["latin"] });
 import "@/styles/globals.css";
+import clsx from "clsx";
 
 export const metadata: Metadata = {
   title: "Felipe Hidalgo",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
+      <body className={clsx(inter.className, "container")}>{children}</body>
     </html>
   );
 }
