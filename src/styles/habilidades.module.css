@@ -1,0 +1,29 @@
+.field_habilidades {
+  border: 3px black solid;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.legend_habilidades {
+  color: black;
+  font-size: large;
+  /* border: 3px black solid;
+  border-radius: 25px; */
+  /* padding-inline: 1rem; */
+  /* text-shadow: 0 0 10px whitesmoke; */
+}
+
+.titleHabilidad {
+  font-size: medium;
+  font-weight: bold;
+  text-align: right;
+}
+
+.habilidades {
+  font-size: medium;
+  text-align: right;
+}
+
+.item:not(:last-child) {
+  padding-bottom: 1rem;
+}
