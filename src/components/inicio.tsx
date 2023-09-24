@@ -5,22 +5,28 @@ import picture from "../../public/images/profile.jpg";
 
 export default function Inicio() {
   return (
-    <div className="columns is-mobile is-desktop is-multiline is-vcentered is-centered">
+    <div className="columns is-mobile is-desktop is-multiline is-vcentered is-centered mt-3 mx-3">
       <Image
-        className={clsx(
-          style.rounded,
-          "column is-3-desktop is-half-mobile p-6"
-        )}
+        className={clsx(style.rounded, "column is-2-desktop is-3-mobile")}
+        width={100}
+        height={100}
         src={picture}
-        width={300}
-        height={300}
         alt="felipe hidalgo"
       />
-      <div className="column is-9-desktop is-full-mobile px-6">
-        <h1 className={clsx(style.nombre, "title is-1")}>
+      <div className="column is-4-desktop is-9-mobile">
+        <h1
+          className={clsx(
+            style.nombre,
+            "title is-3 is-size-3-desktop is-size-4-mobile"
+          )}
+        >
           Juan Felipe Hidalgo Rodriguez
         </h1>
-        <h2 className={clsx("title is-4")}> Ingeniero de Sistemas</h2>
+        <h2 className={clsx(style.carrera, "title is-4")}>
+          Ingeniero de Sistemas
+        </h2>
+      </div>
+      <div className="column is-10-desktop is-11-mobile">
         <p className={style.sobreMi}>
           Soy ingeniero de sistemas, estoy enfocado en explorar nuevas
           posibilidades y desafíos para continuar desarrollándome en mi carrera.

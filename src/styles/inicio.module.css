@@ -1,8 +1,21 @@
 .rounded {
   border-radius: 50%;
+  /* box-shadow: 0 0 5px black; */
 }
 
 .sobreMi {
+  font-family: "Philosopher", sans-serif;
   color: black;
   text-align: justify;
+  /* background: brown; */
+}
+
+.carrera {
+  font-family: "Dancing Script", cursive;
+  /* background: indianred; */
+}
+
+.nombre {
+  /* background: aqua; */
+  font-family: "Pacifico", cursive;
 }
