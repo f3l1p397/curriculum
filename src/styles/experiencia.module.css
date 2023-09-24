@@ -1,10 +1,11 @@
 .actividad {
   color: black;
+  list-style-type: disc;
 }
 
 .contentList {
   margin-block: 1rem;
-  box-shadow: 0 0 10px 1px whitesmoke;
+  box-shadow: 0 0 10px 1px black;
   padding-inline: 2rem;
   border-radius: 25px;
 }

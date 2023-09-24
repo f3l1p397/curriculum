@@ -13,7 +13,7 @@ export default function Experiencia({ data }: any) {
       <ul>
         {data.actividades.map((actividad: string, index: number) => {
           return (
-            <li type="disc" className={styles.actividad} key={index}>
+            <li className={styles.actividad} key={index}>
               {actividad}
             </li>
           );

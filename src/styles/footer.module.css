@@ -1,0 +1,5 @@
+.is_footer {
+  height: 40px;
+  border-top: 3px solid black;
+  box-shadow: 0 0 100px 1px black;
+}
