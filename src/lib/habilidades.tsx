@@ -7,7 +7,7 @@ export const habilidades = [
   {
     id: 2,
     habilidad: "Frontend",
-    list: "Vue.js, JavaScript, TypeScript, HTML, CSS, Sass, BootStrap y Bulma.",
+    list: "Vue.js, JavaScript, TypeScript, HTML, CSS, Sass, Bulma y BootStrap.",
   },
   {
     id: 3,
@@ -17,7 +17,7 @@ export const habilidades = [
   {
     id: 4,
     habilidad: "Base de datos",
-    list: "PostgreSQL, MySQL y Oracle y Firebase",
+    list: "PostgreSQL, MySQL, Oracle y Firebase",
   },
   {
     id: 5,
@@ -27,7 +27,7 @@ export const habilidades = [
   {
     id: 6,
     habilidad: "Herramientas",
-    list: "Insomnia, y Postman.",
+    list: "Insomnia y Postman.",
   },
   {
     id: 7,

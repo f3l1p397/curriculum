@@ -1,22 +1,24 @@
-import styles from "@/styles/experiencias.module.css";
+import styles from "@/styles/experiencia.module.css";
+import clsx from "clsx";
 
 export default function Experiencia({ data }: any) {
   return (
-    <div className="column is-4">
-      <h3 className="title is-3">{data.empresa}</h3>
-      <h4 className="subtitle is-4">{data.cargo}</h4>
-      <h6 className="subtitle is-6">
-        {data.inicio} - {data.fin}
-      </h6>
-      <ol>
+    <div className={clsx(styles.contentList, "column is-full")}>
+      <span className={styles.empresa}>{data.empresa} - </span>
+      <span className={styles.cargo}>{data.cargo}</span>
+      <span>
+        {" "}
+        ({data.inicio} - {data.fin})
+      </span>
+      <ul>
         {data.actividades.map((actividad: string, index: number) => {
           return (
-            <li className={styles.actividad} key={index}>
+            <li type="disc" className={styles.actividad} key={index}>
               {actividad}
             </li>
           );
         })}
-      </ol>
+      </ul>
     </div>
   );
 }

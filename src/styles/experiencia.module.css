@@ -1,0 +1,20 @@
+.actividad {
+  color: black;
+}
+
+.contentList {
+  margin-block: 1rem;
+  box-shadow: 0 0 10px 1px whitesmoke;
+  padding-inline: 2rem;
+  border-radius: 25px;
+}
+
+.empresa {
+  font-size: large;
+  font-weight: bold;
+}
+
+.cargo {
+  font-size: medium;
+  font-weight: bold;
+}

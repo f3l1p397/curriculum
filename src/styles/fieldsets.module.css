@@ -2,11 +2,12 @@
   border: 3px black solid;
   padding: 1rem;
   border-radius: 10px;
+  margin-inline: 1rem;
 }
 
 .legend_habilidades {
   color: black;
-  font-size: large;
+  font-size: x-large;
   /* border: 3px black solid;
   border-radius: 25px; */
   padding-inline: 1rem;
