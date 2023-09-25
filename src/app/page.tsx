@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Inicio />
-      <div className="tile is-ancestor px-6">
+      <div className="tile is-ancestor px-1">
         <div className="tile is-child is-9 ">
           <Experiencias />
         </div>

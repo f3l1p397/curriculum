@@ -6,7 +6,7 @@ export default function Experiencias() {
     <>
       <fieldset className={styles.field_habilidades}>
         <legend className={styles.legend_habilidades}> Experiencia</legend>
-        <div className="columns is-mobile is-desktop is-multiline  px-3">
+        <div className="columns is-mobile is-desktop is-multiline px-1">
           {experiencias.map(
             ({ id, empresa, cargo, inicio, fin, actividades }) => {
               return (
