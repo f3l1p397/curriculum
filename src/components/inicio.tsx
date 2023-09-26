@@ -2,6 +2,8 @@ import Image from "next/image";
 import style from "@/styles/inicio.module.css";
 import clsx from "clsx";
 import picture from "../../public/images/profile.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Inicio() {
   return (
@@ -25,6 +27,14 @@ export default function Inicio() {
         <h2 className={clsx(style.carrera, "title is-4")}>
           Ingeniero de Sistemas
         </h2>
+        <a href="https://github.com/f3l1p397" target="_blank">
+          <FontAwesomeIcon
+            icon={faGithub}
+            bounce
+            style={{ color: "#000000" }}
+            size="3x"
+          />
+        </a>
       </div>
       <div className="column is-10-desktop is-11-mobile">
         <p className={style.sobreMi}>
