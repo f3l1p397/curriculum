@@ -1,4 +1,4 @@
-import styles from "@/styles/experiencia.module.css";
+import styles from "@/styles/experiencia.module.scss";
 import clsx from "clsx";
 
 export default function Experiencia({ data }: any) {

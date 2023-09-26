@@ -5,13 +5,14 @@
   margin-inline: 1rem;
 }
 
+.contenedor_experiencias {
+  overflow: hidden;
+}
+
 .legend_habilidades {
   color: black;
   font-size: x-large;
-  /* border: 3px black solid;
-  border-radius: 25px; */
   padding-inline: 1rem;
-  /* text-shadow: 0 0 10px whitesmoke; */
 }
 
 .titleHabilidad {

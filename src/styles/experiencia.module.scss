@@ -8,6 +8,11 @@
   box-shadow: 0 0 10px 1px black;
   padding-inline: 2rem;
   border-radius: 25px;
+  transition: transform 1s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 }
 
 .empresa {
