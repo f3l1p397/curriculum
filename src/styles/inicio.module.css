@@ -19,3 +19,17 @@
   /* background: aqua; */
   font-family: "Pacifico", cursive;
 }
+
+.icono {
+  margin-left: 1rem;
+}
+.icono:hover {
+  animation: example 1.5s ease-in-out forwards;
+}
+
+@keyframes example {
+  100% {
+    border-bottom: 1px solid black;
+    transform: scale(1.2);
+  }
+}

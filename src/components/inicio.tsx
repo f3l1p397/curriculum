@@ -3,7 +3,7 @@ import style from "@/styles/inicio.module.css";
 import clsx from "clsx";
 import picture from "../../public/images/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 export default function Inicio() {
   return (
@@ -31,6 +31,14 @@ export default function Inicio() {
           <FontAwesomeIcon
             icon={faGithub}
             bounce
+            style={{ color: "#000000" }}
+            size="3x"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/felipe-hidalgo97" target="_blank">
+          <FontAwesomeIcon
+            className={style.icono}
+            icon={faLinkedinIn}
             style={{ color: "#000000" }}
             size="3x"
           />
